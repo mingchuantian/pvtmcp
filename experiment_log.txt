@@ -1,0 +1,11 @@
+Now training:
+pvt_tiny + mcp (pretrained) on cloud   bs 64
+pvt_v2_b0 + mcp (pretrained) on local bs 32 
+pvt_tiny + mcp (no pretrained) on local  bs 32    # pause
+
+
+1. pvt_tiny + mcp (ready) 
+python3 main.py --config ./configs/pvt/ptv_tiny.py --resume ./checkpoints/pvt_tiny/checkpoint.pth --cos_margin
+
+2. pvt_v2_b0 + mcp (ready)
+p
